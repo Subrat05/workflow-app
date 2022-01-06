@@ -1,26 +1,4 @@
-<h2>{{header}}</h2>
-
-<h3>Workflow Item</h3>
-<div cdkDropListGroup class="dropListGroup">
-    <div cdkDropList 
-        [cdkDropListData]="workflowItems"
-        class="example-list" (cdkDropListDropped)="drop($event)">
-        <div class="example-box" *ngFor="let item of workflowItems" cdkDrag>
-            <div class="example-custom-placeholder" *cdkDragPlaceholder></div>
-            {{item}}
-        </div>
-    </div>
-    <div class="area">
-        <h3>Workflow Area/Diagram</h3>
-        <div cdkDropList 
-            [cdkDropListData]="workflowArea"
-            class="example-list" (cdkDropListDropped)="drop($event)">
-            <div class="example-box" *ngFor="let item of workflowArea" cdkDrag>
-                <div class="example-custom-placeholder" *cdkDragPlaceholder></div>
-                {{item}}
-            </div>
-        </div>
-    </div>
-</div>
+<h2 class="header">{{header}}</h2>
 
 <router-outlet></router-outlet>
+

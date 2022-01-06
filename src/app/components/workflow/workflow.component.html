@@ -1,0 +1,18 @@
+<div class="main">
+    <div class="left-menu">
+        <input type="text" placeholder="Enter Text to Add" [(ngModel)]="textString" class="inputText"/>
+        <button (click)="addText()">Add Text</button>
+        <button (click)="addFigure('triangle')">Triangle</button>
+        <button (click)="addFigure('circle')">Circle</button>
+        <button (click)="addFigure('square')">Square</button>
+        <button (click)="addFigure('rectangle')">Rectangle</button>
+        <button (click)="addFigure('linearrow')">Line Arrow</button>
+    </div>
+    <div class="main-area">
+        <code>{{OutputContent}}</code>
+        <canvas id="canvas"></canvas>
+    </div>
+
+</div>
+ 
+

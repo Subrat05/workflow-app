@@ -1,0 +1,35 @@
+.main {
+    width: 1200px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    
+    
+}
+
+.left-menu {
+    width: 200px;
+    float: left;
+    border: solid 1px #CCC;
+    max-height: 100%;
+}
+
+.main-area {
+    width: 900px;
+    max-height: 100%;
+    float: left
+
+}
+
+.inputText {
+    height: 30px;
+    margin: 5px;
+}
+
+button {
+    width: 180px;
+    height: 30px;
+    display: block;
+    margin: 5px;
+    background: coral;
+}
